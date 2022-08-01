@@ -64,3 +64,11 @@ const sommev2=(... nombres)=>{
     for(let nombre of nombres) // au lieu de for(int nombre : nombres)
     return resultat;
 }
+
+//const somme2=(nombre1, nombre2) => nombre1+nombre2;
+
+// quand on lui passe 0 paramètres, il dit NaN (not a number), 
+// il va tenter de faire undefined + undefined 
+// on peut empêcher ça, on utilisant valeurs par défaut
+
+const somme2 = (nombre1 = 0, nombre2 = 0) => nombre1 + nombre2;
