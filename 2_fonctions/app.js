@@ -43,3 +43,24 @@ const reverseStrV2 = (str) => {
 };
 
 const reverseStrV3 = (str) => str.split("").reverse().join("");
+
+
+
+
+const somme=(... nombres)=>{
+    let resultat = 0;
+    for(let i = 0 ; i < nombres.length ; i++){
+        resultat += nombres[i];
+    }
+    return resultat;
+}
+// # rest parametre : on collecte tous les paramètres qu'on rassemble dans un tableau sur lequel on pourra itérer
+const sommev2=(... nombres)=>{
+    let resultat = 0;
+    //for(let i = 0 ; i < nombres.length ; i++){
+    //    resultat += nombres[i];
+    //}
+    // boucle for.. of => proche boucle for each 
+    for(let nombre of nombres) // au lieu de for(int nombre : nombres)
+    return resultat;
+}
