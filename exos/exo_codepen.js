@@ -95,7 +95,7 @@ const users = [
 
   const algeriens = users.filter(function(user){
       return user.nationalite === "Algerienne";
-  })
+  }).length;
 
   //2 - Trouver toutes les personnes dont les prenoms se terminent par a
   const usersFirstNameEndWithA = users.filter(function(user){
@@ -111,7 +111,7 @@ const users = [
   //4 - La liste de tous les hommes russes
 
   const russians = users.filter(function(user){
-      return user.nationalite === "Russe";
+      return user.nationalite === "Russe" && user.sexe === 'M';
   })
 
   //5 - La liste de toutes les personnes dont les noms commencent par K et qui sont des femmes
