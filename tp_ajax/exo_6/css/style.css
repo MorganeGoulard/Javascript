@@ -1,0 +1,70 @@
+.profile-picture{
+    border-radius: 50%;
+    object-fit: cover;
+    width:10rem;
+    height: 10rem;
+    box-shadow: 10px -5px 0px #51a0d2;
+}
+
+body{
+    text-align: center;
+    background-color: #f1f4f9;
+}
+
+.blue-barre{
+    background-color: #51a0d2;
+    height: 3px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.carousel{
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0px 15px 0 rgba(23, 23, 23, 0.19);
+    border-radius: 3px;
+}
+
+.btn-nav{
+    border:none;
+    background-color: transparent;
+    cursor : pointer;
+}
+
+.fas{
+    color : #51a0d2;
+}
+
+.fas:hover{
+    color : #325f7b;
+}
+
+.fa-solid{
+    color: #fff;
+    background-color: #51A0D2;
+    border-radius: 50%;
+    padding: 10px 12px;
+    font-size: 20px;
+    position: absolute;
+    left:7%;
+    
+}
+
+.image-box{
+    position:relative;
+    display: inline-block;
+    padding : auto;
+}
+
+.job-title{
+    color:#51a0d2;
+}
